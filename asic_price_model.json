@@ -1,0 +1,17 @@
+{
+    "model_name": "Exponential",
+    "parameters": [
+        61.74334473704418,
+        -0.002579843001274813
+    ],
+    "metrics": {
+        "r2": 0.947416811700845,
+        "rmse": 3.45398084334385
+    },
+    "date_range": {
+        "start_date": "2022-06-20",
+        "end_date": "2025-01-19"
+    },
+    "function_type": "y = a*exp(bx)",
+    "notes": "x is days since start_date, y is price per TH/s in USD"
+}
